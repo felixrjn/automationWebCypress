@@ -1,0 +1,33 @@
+{
+  "name": "sinbadproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  	"clean-reports": "del -r cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html",
+    "cypress": "./node_modules/.bin/cypress run",
+    "cypress-ui": "./node_modules/.bin/cypress open",
+    "reports": "node cypress/cypress_report.js"
+    
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.8.1",
+    "cypress": "^4.4.0",
+    "cypress-cucumber-preprocessor": "^2.5.3",
+    "cypress-dotenv": "^1.2.2",
+    "dotenv": "^8.2.0",
+    "multiple-cucumber-html-reporter": "^1.16.1",
+    "mysql": "^2.18.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/results",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "author": "",
+  "license": "ISC"
+}

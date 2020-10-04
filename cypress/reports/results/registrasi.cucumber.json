@@ -1,0 +1,97 @@
+[
+  {
+    "description": "As user, I should be able search hotel",
+    "keyword": "Feature",
+    "name": "Searching feature works",
+    "line": 2,
+    "id": "searching-feature-works",
+    "tags": [
+      {
+        "name": "@resgistration",
+        "line": 1
+      }
+    ],
+    "uri": "registrasi.feature",
+    "elements": [
+      {
+        "id": "searching-feature-works;registrasi-using-valid-email",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Registrasi using valid email",
+        "tags": [
+          {
+            "name": "@resgistration",
+            "line": 1
+          },
+          {
+            "name": "@PositiveTesting",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I go to Web php travels",
+            "result": {
+              "status": "passed",
+              "duration": 19706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I fill destination field",
+            "result": {
+              "status": "passed",
+              "duration": 1894000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I chose chekin date",
+            "result": {
+              "status": "passed",
+              "duration": 965000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I chose checkout date",
+            "result": {
+              "status": "passed",
+              "duration": 1096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I chose guest",
+            "result": {
+              "status": "passed",
+              "duration": 1226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I submit form search",
+            "result": {
+              "status": "passed",
+              "duration": 4136000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

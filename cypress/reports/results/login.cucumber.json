@@ -1,0 +1,87 @@
+[
+  {
+    "description": "As user, I should be able to log in",
+    "keyword": "Feature",
+    "name": "log in feature",
+    "line": 3,
+    "id": "log-in-feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "line": 1
+      }
+    ],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "log-in-feature;log-in-email",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "log in email",
+        "tags": [
+          {
+            "name": "@Login",
+            "line": 1
+          },
+          {
+            "name": "@Positive",
+            "line": 7
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I go to Web php travels login",
+            "result": {
+              "status": "passed",
+              "duration": 22613000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click login button",
+            "result": {
+              "status": "passed",
+              "duration": 10893000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I fill username field",
+            "result": {
+              "status": "passed",
+              "duration": 858000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I fill password field",
+            "result": {
+              "status": "passed",
+              "duration": 494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I submit login button",
+            "result": {
+              "status": "passed",
+              "duration": 294000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
